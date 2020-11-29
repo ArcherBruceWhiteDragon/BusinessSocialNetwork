@@ -28,11 +28,13 @@ header h2 {
 .navbar {
   background-color: #901CAD; }
 
-.carousel {
-  border: solid #5637dd; }
-
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
 
 #carouselButton {
   position: absolute;
