@@ -10,8 +10,9 @@ $body-font: "Open Sans", sans-serif;
 $header-font: "Open Sans", cursive;
 
 
-body {
+body, html {
     font-family: $body-font;
+    height: 100%;
 }
 
 h1, h2, h3 {
