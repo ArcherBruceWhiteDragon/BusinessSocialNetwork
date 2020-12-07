@@ -4,3 +4,10 @@
 	column.style.setProperty('height', '200%');
 	column.innerHTML = column.innerHTML + column.innerHTML;
 });
+
+
+$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+  })
+
+  $('#example').tooltip(options)

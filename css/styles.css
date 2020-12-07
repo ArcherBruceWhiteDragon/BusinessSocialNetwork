@@ -441,3 +441,6 @@ header h2 {
             transform: translateY(var(--direction, -50%));
   }
 }
+.checked {
+  color: orange;
+}
