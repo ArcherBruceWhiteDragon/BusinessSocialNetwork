@@ -9,5 +9,12 @@
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
   })
+  $(document).ready(function(){
 
-  $('#example').tooltip(options)
+	$(".navbar-brand").click(function(){
+	$(".navbar-toggler").addClass("collapsed");
+	$(".navbar-toggler").attr("aria-expanded","false");
+	$(".navbar-collapse").removeClass("show");
+	});
+	
+	});

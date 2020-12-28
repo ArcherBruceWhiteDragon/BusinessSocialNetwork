@@ -6,7 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel='icon' href="img/sociaTM logo©.png" />
-  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
@@ -15,26 +18,10 @@
     <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
-    <title>In Touch</title>
+    <title>Socia™️ In Touch</title>
 </head>
 
 <body>
-
-    <!--<header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="index.html"><img src="img/sociaTM logo©.png" class="img-fluid" /></a>
-                </div>
-                <div class="col">
-                    <h1>Socia™️</h1>
-                    <h2> Business made easy™️ </h2> 
-                    <h3> Create, Work, Sell, and live it! </h3>
-                </div>
-            </div>
-        </div>
-    </header>-->
-
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="img/sociaTM logo©.png" height="30" width="30" /></a>
@@ -56,84 +43,77 @@
         <div class="row">
             <div class="col">
                 <br>
-                <h2> In Touch Business</h2>
+                <h2> Socia™️ Talk </h2>
+                <button class="btn btn-outline-success">Notfications</button>
                 <hr />
             </div>
         </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4">
-                <h5>Our Address</h5>
-                <address>
-                    123 Socia™️ Way<br />
-                    Seattle, WA 98001<br />
-                    U.S.A.
-                </address>
-            </div>
-            
+    <div>
+
         </div>
 
-        <div class="row row-content">
-            <div class="col-12">
-                <h2>Get Verified on Socia™️</h2>
-                <hr/>
-            </div>
-            <div class="col-md-10">
-                <form>
-                    <div class="form-group row">
-                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
-                        </div>
-                        <div class="col-7">
-                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-md-2 col-form-label">Email</label>
-                        <div class="col-md-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col offset-md-2">
-                            May we verify you?
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
-                                <label for="contactYes" class="form-check-label">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
-                                <label for="contactNo" class="form-check-label">No</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="feedback" class="col-md-2 col-form-label">Your Business information</label>
-                        <div class="col-md-10">
-                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-warning">Submit Verification</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
+    <div class="main">
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=29" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=30" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
+      </div>
+
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=1" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=2" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=3" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=4" alt="image"></a>
+      </div>
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=5" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=6" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=7" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=8" alt="image"></a>
+      </div>
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=9" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=10" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=11" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=12" alt="image"></a>
+      </div>
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=13" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=14" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=15" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=16" alt="image"></a>
+      </div>
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=17" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=18" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=19" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=20" alt="image"></a>
+      </div>
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=21" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=22" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=23" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=24" alt="image"></a>
+      </div>
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=25" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=26" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=27" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=28" alt="image"></a>
+      </div>
+      <div class="single-column">
+          <a href="#"><img src="https://picsum.photos/300/300?random=29" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=30" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
+          <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
+      </div>
+      </div>
+      <br>
+      <hr />
+   </div>
+
     </div>
 
     <footer class="site-footer">
@@ -164,6 +144,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <!-- endbuild -->
+    <script  src="function.js"></script>
 </body>
 
 </html>

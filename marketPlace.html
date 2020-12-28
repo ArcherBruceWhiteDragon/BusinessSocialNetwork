@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel='icon' href="img/sociaTM logo©.png" />
-  
-    <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- endbuild -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel='icon' href="img/sociaTM logo©.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- endbuild -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
-    <title>Socia™️ Market Place</title>
-</head>
+            <title>Socia™️ Market Place Verified™️</title>
+    </head>
 
 <body>
-     <!--<header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="index.html"><img src="img/sociaTM logo©.png" class="img-fluid" /></a>
-                </div>
-                <div class="col">
-                    <h1>Socia™️</h1>
-                    <h2> Business made easy™️ </h2> 
-                    <h3> Create, Work, Sell, and live it! </h3>
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/sociaTM logo©.png" height="30" width="30" /></a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#sociaNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="sociaNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-sign-out fa-lg"></i> Log out </a></li>
+                        <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fa fa-id-badge fa-lg"></i> Your Profile  </a></li>
+                        <li class="nav-item"><a class="nav-link" href="inTouch.html"><i class="fa fa-list fa-lg"></i> In Touch </a></li>
+                        <li class="nav-item active"><a class="nav-link" href="marketPlace.html"><i class="fa fa-th fa-lg"></i> Socia™️ Market Place </a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </header>-->
-  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/sociaTM logo©.png" height="30" width="30" /></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#sociaNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="sociaNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-sign-out fa-lg"></i> Log out </a></li>
-                    <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fa fa-id-badge fa-lg"></i> Your Profile  </a></li>
-                    <li class="nav-item"><a class="nav-link" href="inTouch.html"><i class="fa fa-list fa-lg"></i> In Touch </a></li>
-                    <li class="nav-item active"><a class="nav-link" href="marketPlace.html"><i class="fa fa-th fa-lg"></i> Socia™️ Market Place </a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-   <div class="container">
+        </nav>
+    <div class="container">
         <div class="row">
             <div class="col">
                 <br>
-                <cente>  <h2>Welcome to your business marketplace</h2></cente>
+                <cente><h2>Search on Socia™️ Business Marketplace</h2> <H5>Verified™️</H5></cente>
+                <form action="post">
+                    <button class="btn btn-outline-success">Buy</button>
+                    <button class="btn btn-outline-primary">Sell</button>
+                </form>
                 <hr />
+    <div class="topnav">
+        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Verified Ideas">
+            Ideas
+        </button>
+        <button type="button" class="btn btn-outline-success" data-toggle="tooltip" data-placement="top" title="Live Anywhere">
+            Live
+        </button>
+        <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Become a Traveler">
+            Travel
+        </button>
+        <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Human Rights Verified Countries">
+            Countries
+        </button>
+        <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Your Healthcare Verifed">
+            HealthCare
+        </button>
+        <button type="button" class="btn btn-outline-success" data-toggle="tooltip" data-placement="top" title="Hire Verifiable Labor">
+            Hire
+        </button>
+    <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+    </div>
+            </div>
 
           <div class="main">
+            <div class="single-column">
+                <a href="#"><img src="https://picsum.photos/300/300?random=29" alt="image"></a>
+                <a href="#"><img src="https://picsum.photos/300/300?random=30" alt="image"></a>
+                <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
+                <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
+            </div>
 	  
             <div class="single-column">
                 <a href="#"><img src="https://picsum.photos/300/300?random=1" alt="image"></a>
@@ -106,18 +128,39 @@
                 <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
                 <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
             </div>
+            </div>
+            <br>
+            <hr />
         </div>
           
-            <script  src="function.js"></script>
-         
-    
+        <div class="container">
+            <div class="row">
+                <div class="col-1 col-sm-2 offset-1">
+                </div>
+                    <div class="col-6 col-sm-5 text-center align-self-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram " href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+         </div> 
+         <br>
+        
     </footer>
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <!-- endbuild -->
+        <!-- build:js js/main.js -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- endbuild -->
+        <script  src="function.js"></script>
 </body>
 
 </html>
